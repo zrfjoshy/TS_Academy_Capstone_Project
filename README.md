@@ -1,13 +1,13 @@
-# 🏦 Smart Credit Booster
+#  Smart Credit Booster
 ### AI-Driven Alternative Credit Scoring for Financial Inclusion in Nigeria
 
 > **TS Academy — Data Science Capstone Project**  
 > **Group 6 | Track: Supervised Learning → Classification**  
-> **Submission Deadline: 16 March 2026**
+> **Submission Date: 15th March 2026**
 
 ---
 
-## 👥 Group Members
+##  Group Members
 
 | Name | Email | GitHub |
 |---|---|---|
@@ -22,7 +22,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [The Problem We're Solving](#-the-problem-were-solving)
@@ -40,7 +40,7 @@
 
 ---
 
-## 🌍 Project Overview
+##  Project Overview
 
 A large portion of working adults in Nigeria — traders, freelancers, students, gig workers — have never taken a formal bank loan. No loan history means no credit score. No credit score means no access to financial products. It is a frustrating cycle that locks out people who are actually responsible with money, simply because their financial behaviour was never formally recorded anywhere.
 
@@ -50,7 +50,7 @@ We framed this as a **multi-class classification problem** and trained three mod
 
 ---
 
-## 🎯 The Problem We're Solving
+## The Problem We're Solving
 
 Traditional credit scoring has a few well-known issues:
 
@@ -62,7 +62,7 @@ Our approach tackles this by building a model that learns from broader financial
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 | Detail | Info |
 |---|---|
@@ -95,7 +95,7 @@ We picked this dataset because it contains the exact kinds of features that matt
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```
 1.  Load & inspect the raw dataset
@@ -116,7 +116,7 @@ We picked this dataset because it contains the exact kinds of features that matt
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+##  Data Cleaning & Preprocessing
 
 The raw dataset came with a collection of real data quality issues. Here is how we handled each one:
 
@@ -142,7 +142,7 @@ The raw dataset came with a collection of real data quality issues. Here is how 
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 We covered all mandatory EDA components from the project specification.
 
@@ -190,7 +190,7 @@ Overlaid histograms by credit class for `Outstanding_Debt`, `Credit_History_Mont
 
 ---
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 We built three new features from existing columns to capture financial stress signals that are not directly visible in the raw data:
 
@@ -204,7 +204,7 @@ All three features showed class-level separation when plotted against the target
 
 ---
 
-## ⚖️ Handling Class Imbalance
+## Handling Class Imbalance
 
 | Class | Before SMOTE | After SMOTE |
 |---|---|---|
@@ -220,7 +220,7 @@ Two important implementation details:
 
 ---
 
-## 🤖 Models & Results
+## Models & Results
 
 ### Evaluation Metrics
 All five metrics required by the classification track specification:
@@ -233,7 +233,7 @@ All five metrics required by the classification track specification:
 | F1 Score (weighted) | Balances precision and recall — our primary comparison metric given class imbalance |
 | Confusion Matrix | Full prediction breakdown enabling FP/FN error analysis |
 
-> ⚠️ RMSE and other regression metrics are **not used anywhere** in this project — this is a classification task.
+> RMSE and other regression metrics are **not used anywhere** in this project — this is a classification task.
 
 ---
 
@@ -291,7 +291,7 @@ Best overall performance. XGBoost's sequential error-correction mechanism — wh
 |---|---|---|---|---|
 | Logistic Regression | 0.613 | 0.654 | 0.613 | 0.617 |
 | Random Forest | 0.725 | 0.751 | 0.725 | 0.729 |
-| **XGBoost ✅** | **0.747** | **0.752** | **0.747** | **0.749** |
+| **XGBoost** | **0.747** | **0.752** | **0.747** | **0.749** |
 
 XGBoost is our best model across every metric. The progression from Logistic Regression → Random Forest → XGBoost tells a clear story: the more expressive the model, the better it handles the complexity of credit risk prediction.
 
@@ -327,7 +327,7 @@ The fact that both models independently ranked these features similarly gives us
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 - **Credit mix quality is the single most predictive feature** — more than income, and more than debt levels alone
 - **Ensemble models significantly outperform logistic regression** — the performance gap confirms credit risk is a non-linear problem
@@ -337,7 +337,7 @@ The fact that both models independently ranked these features similarly gives us
 
 ---
 
-## ▶️ How to Run
+## How to Run?
 
 **1. Clone the repository**
 ```bash
@@ -360,7 +360,7 @@ Open `smart_credit_booster_final_group_6.ipynb` in Jupyter and run all cells fro
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 TS_Academy_Capstone_Project/
@@ -374,7 +374,7 @@ TS_Academy_Capstone_Project/
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 A few directions we would explore with more time:
 
