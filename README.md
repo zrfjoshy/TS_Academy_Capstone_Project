@@ -18,6 +18,8 @@
 | Adeola Adesanya | adesanyaadeola1504@gmail.com | [AdeolaAdesanya](https://github.com/AdeolaAdesanya/TS_Academy_Capstone_Project) |
 | Andrew Ibhagbemien | andrewibhagbemien@gmail.com | [AndrewIbhagbemien](https://github.com/AndrewIbhagbemien/TS_Academy_Capstone_Project) |
 | Onah Onyedikachukwu Gaius | 001gaius@gmail.com | [Gaius-byte1](https://github.com/Gaius-byte1/TS_Academy_Capstone_Project) |
+| Okeke-Eze Charles | okekeezecharles@gmail.com | [Charles628](https://github.com/Charles628/TS_Academy_Capstone_Project) |
+| Odunyemi Olayemi | Odunyemiolayemi@gmail.com | [Monster-23-maker](https://github.com/Monster-23-maker/TS_Academy_Capstone_Project) |
 | Oluwatobi Omofade Chukwuebuka | member@gmail.com | [Great-nes](https://github.com/Great-nes/TS_Academy_Capstone_Project) |
 
 ---
